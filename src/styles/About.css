@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Varela&display=swap');
+.about-container{
+    margin-left: 12vw;
+    margin-top: 5vh;
+}
+.p{
+    font-size: 10px;
+}
+h3,h4 {
+    margin: 0;
+}
+
+.about-container-1 {
+   display: flex;
+   gap:50px;
+   align-items: center;
+   justify-content: center;
+   font-family: "Varela Round";
+   line-height: 1.5em;
+}
+.about-item{
+    --color:#eb904b;
+    width: 22vw;
+    height: 30vh;
+    background-color: var(--color);
+    border-radius: 10px;
+    padding: 10px 5px;
+    box-shadow: #3c40434d 0px 1px 2px 0px, #3c404326 0px 1px 3px 1px;
+    position: relative;
+    cursor: pointer;
+}
+.about-item::after{
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0;
+    z-index: 2;
+    height: 80%;
+    box-sizing: border-box;
+    border-color: transparent transparent transparent var(--color);
+    border-style: solid;
+    border-width: 40px 40px 40px 40px;
+    filter: drop-shadow(5px 0 4px #00000094);
+    transition: filter 0.5s;
+}
+.about-item:nth-child(2){
+    --color:#813085;
+}
+.about-item:nth-child(3){
+    --color:#119630;
+}
+.about-layer{
+    background-color: #f2f2f2;
+    border: 1px solid #fff;
+    border-radius: inherit;
+    padding: 20px;
+    height: 80%;
+    box-shadow: #00000012 0px 1px 2px,#00000012 0px 2px 4px,#00000012 0px 4px 8px,#00000012 0px 8px 16px,#00000012 0px 16px 32px, #00000012 0px 32px 64px;
+    position: relative;
+    left: 10px;
+    transition: left 1s;
+}
+h3{
+    font-weight: 700;
+    text-align: center;
+    color: var(--color);
+}
+h4{
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.p{
+    color:#555;
+}
+
+
+.about-span{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: var(--color);
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    box-shadow: #00000012 0px 1px 2px, #00000012 0px 2px 4px, #00000012 0px 4px 8px, #00000012 0px 8px 16px, #00000012 0px 16px 32px, #00000012 0px 32px 64px;
+    font-size: 14px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+.about-item:hover::after{
+    filter: drop-shadow(5px 0 4px #0000001a);
+}
+.about-item:hover .about-layer{
+    left: 50px;
+}
+
+.fade-in {
+    width: 60vw;
+    margin-left: 10vw;
+    text-align: justify;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.about-circle-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 10vw;
+    position: relative;
+    width: 70vw;
+    height: 50vh;
+    perspective: 500px;
+}
+
+.about-card {
+    /*  position: absolute;*/
+    padding: .5em;
+    width: 45vw;
+    height: fit-content;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transform-origin: center;
+    animation: rotateAnimation 10s linear infinite;
+    font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  transform-style: preserve-3d;
+}
+.about-card:nth-child(1){
+    margin-left: 15vw;
+    transform: rotateX(-15deg);
+}
+.about-card:nth-child(1)::before{
+    content: "User-freindly interface";
+    position: absolute;
+    width: 15vw;
+    left:-52%;
+    margin-left: 10vw;
+}
+.about-card:nth-child(2){
+    margin-left: 15vw;
+    transform: rotateX(15deg);
+}
+.about-card:nth-child(2)::before{
+    content: "Income and Expense Categorization";
+    position: absolute;
+    left:-52%;
+    width: 15vw;
+    margin-left: 10vw;
+}
+.about-card:nth-child(3){
+    margin-left: 10vw;
+    transform: rotateX(-15deg);
+}
+.about-card:nth-child(4){
+    margin-left: 10vw;
+    transform: rotateX(15deg);
+}
+.about-card:nth-child(5){
+    margin-left: 10vw;
+    transform: rotateX(-15deg);
+}
+.about-card:nth-child(6){
+    margin-left: 10vw;
+    transform: rotateX(15deg);
+}
+.about-card:nth-child(7){
+    margin-left: 10vw;
+    transform: rotateX(-15deg);
+}
+.about-card:nth-child(8){
+    margin-left: 10vw;
+    transform: rotateX(15deg);
+}
+
+/* @keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg) translateX(150px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+}
+
+.about-card:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.about-card:nth-child(3) {
+    animation-delay: 4s;
+}
+
+.about-card:nth-child(4) {
+    animation-delay: 6s;
+}
+.about-card:nth-child(5) {
+    animation-delay: 8s;
+}
+.about-card:nth-child(6) {
+    animation-delay: 10s;
+} */

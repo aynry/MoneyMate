@@ -1,0 +1,65 @@
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.menu ul{
+    background-color: #ebdddd;
+    background: linear-gradient(to bottom, #ddd9db, #FFFDDD, #cac8bc);
+width: fit-content;
+margin: 0;
+padding: 0;
+border: 0;
+margin-top: 10vh;
+height: 80vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius: 5%;
+box-shadow: 0px 0px 3px #e9cbcb;
+transition: all 1s linear;
+}
+
+.menu ul li{
+    padding: .5em 1em;
+    transition: all 1s linear;
+}
+.menu ul .un2{
+    line-height: 1.5em;
+    list-style: none;
+    font-size: 0;
+  font-weight: bold;
+  text-align: center;
+transition: all .5s linear;
+color: #2d2e0e;
+  text-shadow: rgb(83, 81, 48)center;
+  letter-spacing: 0px;
+  text-shadow: 3px 4px 7px rgba(187, 177, 145, 0.8);
+  cursor: pointer;
+}
+.menu ul .un1{
+    transition: all 1s linear;
+}
+
+.menu .ho2{
+    font-size: 1.2em;
+    letter-spacing: .2em;
+    transition: all 1s linear;
+}
+.menu .ho1{
+    font-size: 0;
+    transition: all 1s linear;
+}
+.menu-opener{
+    position: absolute;
+    left: 4vw;
+    top: 7vh;
+    cursor: pointer;
+}
+.menu img{
+    position: absolute;
+    top: 10vh;
+    left: 1vw;
+    box-shadow: 0px 2px 3px #CCCDDD;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.login1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #FFFFEF, #EEFFFF, #EEEFFF);
+}
+
+.login1 .left1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40vw;
+    padding: 2em;
+}
+
+.login1 .right {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    position: fixed;
+    right: 2vw;
+    top: 3vh;
+    width: 60vw;
+}
+.login1 .logo{
+    width: 8vw;
+    height: auto;
+    position:fixed;
+    left: 50vw;
+    top: 7vh;
+    z-index: 9999;
+    border-radius: 10%;
+}
