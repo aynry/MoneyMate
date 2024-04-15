@@ -19,13 +19,13 @@ To get started with MoneyMate, follow these steps:
    git clone https://github.com/aynry/MoneyMate/.git
 
 2.Navigate to the project directory:
-cd moneymate
+``cd moneymate``
 
 3.Install dependencies:
-  npm install
+ `` npm install``
 
 4.Run the application:
- npm start
+ ``npm start``
 
 ## Contributing
 We welcome contributions from the community to help improve MoneyMate. If you encounter any bugs, have feature requests, or would like to contribute code, please submit a pull request or open an issue on GitHub.
