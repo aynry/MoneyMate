@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# MoneyMate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MoneyMate is a comprehensive web-based financial management application designed to help users track their income, expenses, and budgets effectively. With intuitive features and user-friendly interface, MoneyMate empowers individuals to take control of their finances and make informed financial decisions.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Income Tracking:** Easily log and track your income sources, including salaries, bonuses, and investments.
+- **Expense Management:** Categorize and track your expenses across various categories such as groceries, utilities, transportation, and more.
+- **Budget Planning:** Set personalized budgets for different expense categories and monitor your spending against these budgets.
+- **Interactive Reports:** Generate customizable reports to analyze your financial data, identify spending patterns, and track budget performance.
+- **Secure and Private:** Protect your financial information with advanced security measures, ensuring your data remains safe and confidential.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To get started with MoneyMate, follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/aynry/MoneyMate/.git
