@@ -1,6 +1,14 @@
+<p align="center">
+  <img width="390" height="400" src="https://github.com/aynry/MoneyMate/assets/90700601/059c10d5-f1d3-43e6-97b3-c9dee9906a5d">
+</p>
+
 # MoneyMate
 
 MoneyMate is a comprehensive web-based financial management application designed to help users track their income, expenses, and budgets effectively. With intuitive features and user-friendly interface, MoneyMate empowers individuals to take control of their finances and make informed financial decisions.
+
+<p align="center">
+  <img width="497" height="700" src="https://github.com/aynry/MoneyMate/assets/90700601/e0443e40-b42d-4929-b3f5-8a19b866b790">
+</p>
 
 ## Features
 
