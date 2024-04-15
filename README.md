@@ -17,3 +17,15 @@ To get started with MoneyMate, follow these steps:
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/aynry/MoneyMate/.git
+
+2.Navigate to the project directory:
+cd moneymate
+
+3.Install dependencies:
+  npm install
+
+4.Run the application:
+ npm start
+
+## Contributing
+We welcome contributions from the community to help improve MoneyMate. If you encounter any bugs, have feature requests, or would like to contribute code, please submit a pull request or open an issue on GitHub.
