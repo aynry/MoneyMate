@@ -42,4 +42,4 @@ To get started with MoneyMate, follow these steps:
 We welcome contributions from the community to help improve MoneyMate. If you encounter any bugs, have feature requests, or would like to contribute code, please submit a pull request or open an issue on GitHub.
 
 # License
-MoneyMate is licensed under the MIT License. See the LICENSE.md file for details.
+MoneyMate is licensed under the MIT License. See the a [LICENSE.md](https://github.com/aynry/MoneyMate/blob/main/LICENSE) file for details.
