@@ -38,5 +38,8 @@ To get started with MoneyMate, follow these steps:
  
  ``npm start``
 
-## Contributing
+# Contributing
 We welcome contributions from the community to help improve MoneyMate. If you encounter any bugs, have feature requests, or would like to contribute code, please submit a pull request or open an issue on GitHub.
+
+# License
+MoneyMate is licensed under the MIT License. See the LICENSE.md file for details.
